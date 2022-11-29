@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<testsuites tests="23" disabled="0" errors="0" failures="0" name="" time="2.274178" >
+<testsuite tests="9" id="1" package="ut_article_setup"  disabled="0" errors="0" failures="0" name="Test Article Setup" time=".388239" >
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM table" time=".152633" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_DT table" time=".083455" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_SUP table" time=".018642" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_SUP_DT table" time=".022572" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_SUP_CTY table" time=".025744" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_LANG table" time=".012964" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_DT_GROUP table" time=".01108" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in INVENTORY table" time=".031174" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_article_setup" assertions="1" name="Checking record present in ITEM_RU_FY table" time=".028496" >
+<system-out/>
+<system-err/>
+</testcase>
+<system-out/>
+<system-err/>
+</testsuite>
+<testsuite tests="14" id="2" package="ut_regular_inbound_1"  disabled="0" errors="0" failures="0" name="Test Inbound job" time="1.885194" >
+<testcase classname="ut_regular_inbound_1" assertions="0" name="Processing inputs shared in I_INPUT_DETAILS table" time=".005129" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_LUTR table" time=".010067" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_LUTRL table" time=".005787" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_SHP table" time=".005081" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_SHPR table" time=".005871" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_CCSM table" time=".006692" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_CSM table" time=".007899" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Inserting I_IIP_CSML table" time=".013621" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="0" name="Running job batch.process_csm_shp_data_received" time="1.808538" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Checking record present in IN_CONSIGNMENT with csm_status as 30 and in_status as 10" time=".004669" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Checking record present in IN_CONSIGNMENT_LINE with in_status as 10" time=".001646" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Checking record present in IN_CONNECTED_CONSIGNMENT with in_status as 10" time=".002116" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Checking record present in IN_LOADING_UNIT_TRIP with shp_status as 40 and in_status as 10" time=".004217" >
+<system-out/>
+<system-err/>
+</testcase>
+<testcase classname="ut_regular_inbound_1" assertions="1" name="Checking record present in IN_CONTAINER_TRIP with in_status as 10" time=".002429" >
+<system-out/>
+<system-err/>
+</testcase>
+<system-out/>
+<system-err/>
+</testsuite>
+</testsuites>
